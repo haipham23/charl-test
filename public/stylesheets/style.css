@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.person {
+  padding: 10px;
+  background: #ddd;
+  border: 1px solid #222;
+  margin: 20px;
+}
+
+.person span {
+  margin-right: 5px;
+}
+
+.person span:not(:last-child):after {
+  content: ','
+}
+
+.place {
+  padding: 10px;
+  background: #ABFFF1;
+  border: 1px solid #222;
+  margin: 20px;
+  text-align: right;
+}
+
+.remark {
+  margin-top: 20px;
+  display: inline-block;
+}

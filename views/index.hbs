@@ -1,0 +1,20 @@
+<h1>Data Visualization</h1>
+{{#each data}}
+  {{#if name}}
+    <div class="place">
+      {{ name }}
+    </div>
+  {{/if}}
+
+  {{#if people}}
+    <div class="person">
+      {{#each people}}
+        <span>{{ this }}</span>
+      {{/each}}
+    </div>
+  {{/if}}
+{{/each}}
+<div class="remark">
+  <span class="person">Person</span>
+  <span class="place">Place</span>
+</div>
